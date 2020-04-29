@@ -1,0 +1,154 @@
+body {
+    background-image: url("https://images.alphacoders.com/787/thumb-1920-787215.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    color: #575F7D;
+    font-size: 20px;
+}
+
+.container {
+    width: 700px;   /* This sets the width */
+    margin: 0 auto; /* This automatically sets left/right margins */
+  }
+
+h1 {
+    color: #575F7D;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h2 {
+    color: lightsalmon;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    background-color: floralwhite;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 40px 0px;
+    text-align: center;
+}
+
+#introduction p {
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+a:hover {
+    color: ivory;
+}
+
+.img-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+
+#fb i:hover {
+    font-size: 50px;
+    color: red;
+}
+#in i:hover{
+    font-size: 50px;
+    color: blue;
+}
+#tw i:hover{
+    font-size: 50px;
+    color: greenyellow;
+}
+
+.btn-blue {
+    background-color: indianred;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: lightblue;
+}
+
+@media (max-width: 1152px) {
+    /* For a screen < 960px, this CSS will be read */
+    body {
+        background-image: none;
+        background-color: bisque;
+      }
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    body {
+        background-image: none;
+        background-color: bisque;
+    }
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    body {
+      background-image: url("https://wallpaperaccess.com/full/1250996.jpg");
+      background-size: 150%;
+      background-repeat: no-repeat;
+    }
+    .list-inline li {
+        display: inline-block;
+        padding: 0px 10px;
+      }
+    
+    .list-inline i {
+        font-size: 20px;
+        color: rgb(230, 230, 230);
+    }
+    
+    #fb i:hover {
+        font-size: 20px;
+        color: red;
+    }
+    #in i:hover{
+        font-size: 20px;
+        color: blue;
+    }
+    #tw i:hover{
+        font-size: 20px;
+        color: greenyellow;
+    }
+    
+    .container {
+      width: 300px;
+    }
+  }
